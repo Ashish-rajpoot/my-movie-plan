@@ -4,5 +4,6 @@ services:
   angular-my-movie-plan:
     container_name: angular-my-movie-plan
     build:
-      context: ./my-movie-plan
+      context: .
+#        context: ./my-movie-plan
       dockerfile: .
