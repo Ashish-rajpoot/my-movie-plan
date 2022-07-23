@@ -5,5 +5,5 @@ services:
     container_name: angular-my-movie-plan
     build:
 #       context: ./my-movie-plan
-      dockerfile: ./my-movie-plan
+#       dockerfile: ./my-movie-plan
 
