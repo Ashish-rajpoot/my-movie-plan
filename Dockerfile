@@ -14,7 +14,7 @@ RUN npm run build --prod
 
 # CMD ["npm", "start"]
 
-FROM nginx:latest-alpine as prod-stage
+FROM nginx:alpine as prod-stage
 
 COPY --from=build-stage /usr/src/app/dist/my-movie-plan /user/share/nginx/html
 
