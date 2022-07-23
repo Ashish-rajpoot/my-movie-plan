@@ -23,7 +23,7 @@ pipeline {
         // }
         stage('docker compose build') {
              steps {
-                 sh "docker-compose build my-movie-plan"
+                 sh "docker-compose build"
              }
         }
 
