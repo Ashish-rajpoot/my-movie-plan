@@ -6,5 +6,5 @@ services:
     build:
       context: .
 #        context: ./my-movie-plan
-      Dockerfile: ./my-movie-plan
+      dockerfile: ./my-movie-plan
 #       dockerfile: .
