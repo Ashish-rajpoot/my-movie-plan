@@ -23,13 +23,13 @@ pipeline {
         }
         stage('docker compose build') {
              steps {
-                 sh "docker-compose build"
+                 sh "docker compose build"
              }
         }
 
         stage('docker compose start') {
              steps {
-                 sh "docker-compose up"
+                 sh "docker compose up -d"
              }
         }
     }
