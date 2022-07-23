@@ -1,9 +1,9 @@
 version: "3.2"
 
 services:
-#   angular-my-movie-plan:
-#     container_name: angular-my-movie-plan
+  angular-my-movie-plan:
+    container_name: angular-my-movie-plan
     build:
-      context: .
+      context: ./dir
       dockerfile: ./my-movie-plan
 
