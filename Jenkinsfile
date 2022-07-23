@@ -16,11 +16,11 @@ pipeline {
         //         sh "mvn package"
         //     }
         // }
-        // stage('docker build') {
-        //     steps {
-        //         sh "docker build -t employee-management ."
-        //     }
-        // }
+        stage('docker version') {
+            steps {
+                sh "docker compose version"
+            }
+        }
         stage('docker compose build') {
              steps {
                  sh "docker-compose build"
